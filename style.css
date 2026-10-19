@@ -1,0 +1,13 @@
+:root{--bg:#fbfaf7;--fg:#2b2a27;--muted:#6b675f;--link:#8a5a1f;--rule:#e4dfd4}
+@media (prefers-color-scheme:dark){:root{--bg:#171613;--fg:#e9e5da;--muted:#a39d8f;--link:#d9a45b;--rule:#2e2b25}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1.05rem/1.65 ui-serif,Georgia,"Times New Roman",serif}
+main{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+h1{font:700 2rem/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 .35rem}
+h2{font:700 1.25rem/1.3 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;margin:2.2rem 0 .6rem}
+p,li{margin:0 0 .9rem}ul{padding-left:1.4rem}
+a{color:var(--link)}
+.sub{color:var(--muted);margin:0 0 1.6rem}
+nav{margin:0 0 2rem;font:600 .95rem ui-sans-serif,system-ui,sans-serif}
+nav a{margin-right:1.1rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
